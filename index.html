@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@1..144,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body class="mainBody">
+        <div class="d1">
+            <label for="process-count">Number of Processes:</label>
+            <input type="number" id="process-count" min="1" max="500"><br>
+            <button id="Done" onclick="tableGenerator()">Done</button>
+        </div>
+        <div id="table">
+            
+        </div>
+        <button onclick="scheduler()">Analysis</button>
+        <div id="output"></div>
+        <div id="output2"></div>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+/* Base Layout Setup */
+body.mainBody {
+  font-family: 'Google Sans Flex', sans-serif;
+  background-color: #f8f9fa;
+  color: #202124;
+  padding: 40px;
+  margin: 0;
+}
+
+.d1 {
+  margin-bottom: 24px;
+}
+
